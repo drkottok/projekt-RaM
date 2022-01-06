@@ -1,8 +1,12 @@
 import React from 'react';
 import classes from './Nav.module.css';
+/*
+let classes = {
+'nav' :
+}
 
-
-
+let c1 = w
+*/
 const Nav = () => {
     return <nav className={classes.nav}>
         <div className={classes.my_parametr}>
