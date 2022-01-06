@@ -1,0 +1,19 @@
+.app-wrapper{
+  margin: 23px auto;
+  border: 5px;
+  padding: 7px;
+  display: grid;
+  width: auto;
+  grid-template-rows:  90px 50fr 6fr;
+  grid-template-columns: 3fr 10fr;
+  grid-template-areas:
+   " area_Header area_Header"
+   "area_Nav area_Profile"
+   "area_footer area_footer";
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+
+}
+.app-wrapper img {
+    width: 120px;
+}

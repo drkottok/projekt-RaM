@@ -1,0 +1,11 @@
+.nav {
+    grid-area: area_Nav;
+    background-color:rgb(0, 255, 64) ;
+
+}
+
+.my_parametr {
+    color: #be2525;
+}
+
+

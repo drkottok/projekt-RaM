@@ -1,0 +1,9 @@
+
+.footer {
+    grid-area: area_footer;
+    background-color: rgb(93, 208, 28);
+}
+
+.footer img {
+    width: 56px;
+}

@@ -1,0 +1,11 @@
+
+.profile {
+    grid-area: area_Profile;
+    background-color: rgb(217, 209, 231);
+    color: #ff0073;
+
+}
+.my_parametr {
+    color: #00ff15;
+    background-color: rebeccapurple;
+}
