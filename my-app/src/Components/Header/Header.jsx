@@ -1,12 +1,14 @@
 import React from 'react';
-import classes from './Header.module.css';
+import kottok from './Header.module.css';
 
 
 
 const Header = () => {
-    return <header className={classes.header}>
+    return <header className={kottok.header}>
         <img src = 'https://cdn.bhdw.net/im/crazy-rick-oboi-24069_w635.jpg' />
-           </header>
+    <button>my list</button>
+
+    </header>
 }
 export default Header;
 

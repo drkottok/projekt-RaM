@@ -1,10 +1,10 @@
 import React from 'react';
-import classes from './Footer.module.css';
+import kottok from './Footer.module.css';
 
 
 
 const Footer = () => {
-    return <footer className={classes.footer}>
+    return <footer className={kottok.footer}>
         <p>Footer</p>
 
     </footer>
