@@ -11,6 +11,7 @@ const   Post = (props) => {
         <textarea>{props.message}</textarea>
         <button>Like{props.like}</button>
         </my_param>
+        {props.dr}
     </post>
 
 }

@@ -4,7 +4,7 @@ import MyPosts from "./MyPost/MyPosts";
 
 const Profile = () => {
     return <div className={kottok.profile}>
-        <div> <MyPosts dr ='treu'/></div>
+        <div> <MyPosts /></div>
     </div>
       }
 
