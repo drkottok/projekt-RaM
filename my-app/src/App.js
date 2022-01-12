@@ -19,11 +19,9 @@ const App = () => {
                      <Routes>
                     <Route path='/dialogs' element={<Dialogs />}/>
                     <Route path='/profile' element={<Profile />}/>
-
+                    <Route path='/profile' element={<Profile />}/>
                      </Routes>
                      </div>
-
-
                 </div>
                 <Footer/>
             </div>

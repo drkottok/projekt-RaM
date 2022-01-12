@@ -1,15 +1,20 @@
 .nav {
     grid-area: area_Nav;
-    background-color:rgb(0, 255, 64) ;
+    background-color: rgb(184, 183, 192);
 
 }
 
 .my_parametr {
-    color: #140886;
+    color: #ff2f00;
+
+}
+
+.nav .my_parametr {
+    color: #0066ff;
 }
 
 
-.nav.my_parametr {
-    color: #ff0073;
-}
+.my_parametr .activeLinc {
+    color: #5dd01c;
 
+}
