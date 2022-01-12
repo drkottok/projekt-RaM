@@ -19,7 +19,7 @@ const App = () => {
                      <Routes>
                     <Route path='/dialogs' element={<Dialogs />}/>
                     <Route path='/profile' element={<Profile />}/>
-                    {/*<Route path='/message' element={<??? />}/>*/}
+
                      </Routes>
                      </div>
 
