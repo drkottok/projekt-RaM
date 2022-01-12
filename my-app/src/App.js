@@ -5,7 +5,8 @@ import Nav from './Components/Nav/Nav';
 import Profile from './Components/Profile/Profile';
 import Footer from './Components/Footer/Footer';
 import Dialogs from './Components/Dialogs/Dialogs';
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter, Route,Routes} from "react-router-dom";
+import MyPosts from "./Components/Profile/MyPost/MyPosts";
 
 const App = () => {
     return (
@@ -15,9 +16,13 @@ const App = () => {
                 <Nav/>
                 <div className='app-wrapper-content'>
                     <div>
-                    <Route path='/dialogs' component={Dialogs}/>
-                    <Route path='/profile' component={Profile}/>
-                    </div>
+                     <Routes>
+                    <Route path='/dialogs' element={<Dialogs />}/>
+                    <Route path='/profile' element={<Profile />}/>
+                    {/*<Route path='/message' element={<??? />}/>*/}
+                     </Routes>
+                     </div>
+
 
                 </div>
                 <Footer/>
