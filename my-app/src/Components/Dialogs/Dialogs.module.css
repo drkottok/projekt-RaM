@@ -1,3 +1,13 @@
 .dialogs {
-  color: #e4eee4;
+    display: grid;
+    color: #4ab64a;
+    grid-template-columns: 2fr 3fr;
+}
+
+.messeges{
+    color: #450d81;
+}
+
+.diallogs{
+    color: #2a810d;
 }
