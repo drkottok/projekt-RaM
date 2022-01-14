@@ -14,7 +14,10 @@
 }
 
 
-.my_parametr .activeLinc {
+ .active {
     color: #5dd01c;
 
 }
+.item{
+    color: #450d81;
+  }
